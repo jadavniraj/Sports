@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(image/home1.jpg);
+    transition: 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: absolute;
+    top:0; left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+        position: relative;
+        font-size: 50px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 600;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 120px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#a{
+    width: 400px;
+    height: 700px;
+    margin-left: 250px;
+    margin-top: -200px;
+}
+#b{
+    width: 400px;
+    height: 700px;
+    margin-right: 250px;
+    margin-top: -200px;
+}
+img{
+    width: 90cm;
+    height: 9cm;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row1{
+    display: flex;
+    margin-top: -2px;
+    
+}
+.row2{
+    display: flex;
+}
+img{
+    width: 70%;
+}
+h3{
+    color: #fff;
+}
